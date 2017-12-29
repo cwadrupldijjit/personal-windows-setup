@@ -10,7 +10,7 @@ On Windows, there are basically two different command lines you can choose from:
   1. [Hyper](https://hyper.is/) (which is also cross-platform, and built with Electron, with plugins available through npm and json configurations, and I believe is hackable)  
       - The default command line it uses is Cmd, but since I hate Cmd, I use **Powershell**.  I tried to set the default prompt to be powershell instead, but it didn't ever seem to work right, so I just type `powershell` each time I open a new window or tab.
       - I also mainly use this because it looks a whole lot nicer than the default terminals
-      - This terminal has been buggy for me before, but lately, it's been on good behavior lately.
+      - This terminal has been buggy for me before, but lately, it's been on good behavior.
   1. Powershell
       - Powerful (and purportedly object-oriented) shell which takes what Cmd does and makes it much better, and allows you to use scripts called cmdlets (which may be available in Cmd?) to do what you want.  Some of the power of Powershell isn't really realized by me because I don't manage the system this way.  But the fact that most of the parameters and such are tabbable by default, this makes me like this much better than Bash
       - Despite my efforts in setting the defaults of the look of the windows, the fact that it has very limited customization options and the fact that the defaults were often ignored when loading the windows, I try to use this as little as possible, though will use this terminal over Cmd any day
