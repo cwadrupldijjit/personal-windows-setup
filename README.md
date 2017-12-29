@@ -14,7 +14,7 @@ On Windows, there are basically two different command lines you can choose from:
   1. Powershell
       - Powerful (and purportedly object-oriented) shell which takes what Cmd does and makes it much better, and allows you to use scripts called cmdlets (which may be available in Cmd?) to do what you want.  Some of the power of Powershell isn't really realized by me because I don't manage the system this way.  But the fact that most of the parameters and such are tabbable by default, this makes me like this much better than Bash
       - Despite my efforts in setting the defaults of the look of the windows, the fact that it has very limited customization options and the fact that the defaults were often ignored when loading the windows, I try to use this as little as possible, though will use this terminal over Cmd any day
-      - I will have another section or document explaining how I've customized Powershell to look and feel its greatest
+      - I'll refer you to [this section](#powershell)
   1. Cmd
       - I don't enjoy using this terminal much, partially because it's much more limited than Powershell and makes me feel like I'm using an outdated machine
   1. Git Bash
