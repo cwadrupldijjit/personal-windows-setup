@@ -1,5 +1,9 @@
 Below are different setups I have on my machine that make me feel like I have the best dev box ever.  Generally, if there is a list, it is ordered by preference; most preferred to least preferred.  Feel free to make issues or ask me on [LinkedIn](https://www.linkedin.com/in/cwadrupldijjit?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BmflX83jYQT%2Bg42wNPRW0BA%3D%3D), [Twitter](https://twitter.com/cwadrupldijjit), or [send me an email](mailto:sskeen9@gmail.com).  Best way to reach me though: Via Slack, if you know me (should be @cwadrupldijjit most places).
 
+I've also marked items or sections that I suggest you at least have on your computer in order to have the best possible development experience tagged with the keyword "Essential".  You can find them easily by typing <kbd>Ctrl</kbd> + <kbd>F</kbd> in this document and typing the keyword in.  It's also good to note that even these essentials are subject to my opinion.
+
+# TL;DR (incoming)
+
 # Software
 
 ## General-Purpose
@@ -11,7 +15,7 @@ On Windows, there are basically two different command lines you can choose from:
       - The default command line it uses is Cmd, but since I hate Cmd, I use **Powershell**.  I tried to set the default prompt to be powershell instead, but it didn't ever seem to work right, so I just type `powershell` each time I open a new window or tab.
       - I also mainly use this because it looks a whole lot nicer than the default terminals
       - This terminal has been buggy for me before, but lately, it's been on good behavior.
-  1. Powershell
+  1. Powershell (essential)
       - Powerful (and purportedly object-oriented) shell which takes what Cmd does and makes it much better, and allows you to use scripts called cmdlets (which may be available in Cmd?) to do what you want.  Some of the power of Powershell isn't really realized by me because I don't manage the system this way.  But the fact that most of the parameters and such are tabbable by default, this makes me like this much better than Bash
       - Despite my efforts in setting the defaults of the look of the windows, the fact that it has very limited customization options and the fact that the defaults were often ignored when loading the windows, I try to use this as little as possible, though will use this terminal over Cmd any day
       - I'll refer you to [this section](#powershell) for configurations and other tips
@@ -24,7 +28,7 @@ On Windows, there are basically two different command lines you can choose from:
 I've heard of a couple of other terminals that bounce around out there, but I've never found any reason to use them instead.  I'm pretty happy with Hyper + Powershell, so I'm keeping it.
 
 ### Editors
-  1. [VS Code](https://code.visualstudio.com/) - hands-down winner
+  1. [VS Code](https://code.visualstudio.com/) - hands-down winner (essential)
       - Usually use the Insiders builds (I'm too impatient to wait for new goodies!)
   1. [Visual Studio](https://www.visualstudio.com/)
       - For dabbling in other stuff, but usually collects dust
@@ -38,7 +42,7 @@ I've heard of a couple of other terminals that bounce around out there, but I've
 Honorable mentions not currently installed on my computer (but still would rank above PHPStorm) are [Atom](https://ide.atom.io/) (since it's a solid editor, just not my favorite), [Brackets](http://brackets.io/), and even Vim (the in-terminal one, not the gui one you can get).
 
 ### Browsers
-  1. [Chrome](https://www.google.com/chrome/browser/desktop/index.html)
+  1. [Chrome](https://www.google.com/chrome/browser/desktop/index.html) (essential)
       - Isn't perfect, is slightly slower than Firefox Quantum, but still has the most robust and easy-to use devtools out of the browsers I have on my computer
       - Also has all of the extensions I like to use
   1. [Firefox Quantum](https://www.mozilla.org/en-US/firefox/)
@@ -56,12 +60,13 @@ Honorable mentions not currently installed on my computer (but still would rank 
       - Barely deserves a mention, but will pick up virtual host configurations (unlike Edge), and allows to save self-signed-certificates so that you don't have to constantly make an exception in Chrome
 
 ### Social/Communication
-  1. [Slack](https://slack.com)
+  1. [Slack](https://slack.com) (essential)
       - Not completely bugless, but still a good collaboration tool
       - Has flexible functionality, and not bad for companies and communities
       - Uses markdown-like syntax for styling your messages
       - Has a sometimes useful but usually creepy Slackbot that lurks until it's unexpected
       - _Really_ annoying 10,000 message limit that means that you lose gems of knowledge over time
+      - If you've never heard of this, and you're a web developer and especially live in Utah, I would suggest that you sign up for an account on the Utah JavaScript Slack channel to try it out.  Signup link is here: []https://slack.utahjs.com/]
   1. [Discord](https://discordapp.com/)
       - Similar to Slack, but also includes voice channels, and is mainly geared toward gamers
       - Allows to do screen shares now
@@ -76,7 +81,7 @@ Honorable mentions not currently installed on my computer (but still would rank 
 
 ## Windows configurations
 
-### Developer Mode (Windows 10 only?)
+### Developer Mode (Windows 10 only?) (essential)
 You should be able to turn developer mode on in Settings > Update and Security > For developers > Use developer features > Developer mode (which may require you to push a button before you can select it).
 
 ### Hyper-V
@@ -91,7 +96,7 @@ It's also possible that you could install Docker in bash because it's actually U
 
 ## Web Development
 
-### [Node](https://nodejs.org/)
+### [Node](https://nodejs.org/) (essential)
 
 Must-haves:
   - [`npm`](https://npmjs.org)
@@ -116,7 +121,7 @@ Optional:
 
 #### Packages
 
-Must-haves:
+Must-haves (aka, essential):
   - [Chocolatey](https://chocolatey.org/install)
       - Sorta like apt in Ubuntu or brew for macs, this allows you to customize your PC with a bunch of different packages you can use.
       - Used this to install the other packages listed
@@ -138,7 +143,7 @@ I generally have found that the tools built into powershell have been sufficient
 
 ### Browser Extensions
 
-Must-haves:
+Must-haves (aka essential):
   - [Last Pass](https://www.lastpass.com/)
       - Browsers are good at storing passwords, but only for themselves.  LastPass extensions work in most browsers and has apps for phones and tablets.
       - You also can't manage them as well in browsers as LastPass can.
@@ -180,7 +185,7 @@ Optional:
 
 ### VS Code Extensions
 
-Must-haves:
+Must-haves (aka essential):
   - [WakaTime](https://wakatime.com/vs-code)
       - Allows you to track your time spent per project, per language, etc., which can be interesting or good for freelancers
   - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
